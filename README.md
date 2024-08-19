@@ -2,7 +2,7 @@
 
 ## Fix mouse pointer on a Windows guest in QEMU with NVIDIA GPU
 
-The problem: spice uses virtual GPU to render the mouse poiner when the guest is accessed through virt-viewer. This causes the mouse pointer to become invisible when a guest is using NVIDIA GPU as a passthrough PCIE device. Re-enabling NVIDIA GPU within a running guest causes the mouse pointer to be visible again. This problem does not occur when accessing the guest through RDP or parsec.
+The problem: spice uses virtual GPU to render the mouse poiner when the guest is accessed through virt-viewer. This causes the mouse pointer to become invisible when a guest is using NVIDIA GPU as a passthrough PCIE device. Re-enabling NVIDIA GPU within a running guest causes the mouse pointer to be visible again. This problem does not occur when accessing the guest through RDP or parsec/sunshine.
 
 Get the name of the GPU device in the guest:
 
