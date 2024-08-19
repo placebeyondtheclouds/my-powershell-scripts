@@ -24,3 +24,5 @@ powershell -Command "Start-Process powershell \"-ExecutionPolicy Bypass -NoProfi
 ```
 
 or put the command in a .cmd file in `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+The script will ask for admin rights, use keyboard to navigate to "Yes" and press Enter.
